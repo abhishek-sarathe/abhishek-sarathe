@@ -20,7 +20,7 @@ Key design decision: the LLM only identifies the food. Nutrition numbers always 
 ### [Under These Stars](https://underthesestars.in): live, revenue-generating
 Astronomically accurate star-map posters, generated on demand. A customer picks a date and place, and the backend computes the exact night sky from NASA's DE440 ephemeris and the Hipparcos catalogue. Matplotlib renders it at 300 DPI, an LLM writes the title, Razorpay takes payment, and Resend delivers the poster. Built and run solo.
 
-`FastAPI` `Next.js 15` `Skyfield` `Matplotlib` `Supabase` `Razorpay` `Groq` `Railway` `Vercel`
+`FastAPI` `Next.js` `Skyfield` `Matplotlib` `Supabase` `Razorpay` `Groq` `Railway` `Vercel`
 
 ➡️ [Website](https://underthesestars.in) · [Frontend repo](https://github.com/abhishek-sarathe/under-these-stars) · [Star-map engine](https://github.com/abhishek-sarathe/star-map-poster) · [Streamlit demo](https://star-map-generator.streamlit.app/)
 
